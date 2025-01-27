@@ -6,7 +6,7 @@ We start with reimplementing Ridge regression from scratch that is OLS with L2 p
 
 The goal is to minimize the objective function given by $||y - X\beta||^2_2 + \lambda * ||\beta||^2_2$
 
-This classically leads to $\hat{\beta} = (X^TX+\lambda I)^{-1}X^Ty$.
+This classically leads to the closed-form solution $\hat{\beta} = (X^TX+\lambda I)^{-1}X^Ty$.
 
 ## Non-zero priors
 
