@@ -20,7 +20,7 @@ $$\hat{\beta}(\lambda) = \arg \min_{\beta \in \mathbb{R}^p} \left( (Y - X\beta)^
 
 Next, we investigate how to shkrink a subset of features only, in the case we do not want to shrink all of the features, but only some of them.
 
-$$\hat{\gamma}, \hat{\beta} = \arg \min_{\gamma \in \mathbb{R}^m, \beta \in \mathbb{R}^p} \|Y - U\gamma - X\beta\|^2 + (\beta - \beta_0)' \Lambda (\beta - \beta_0)$$
+$$\hat{\gamma}, \hat{\beta} = \arg \min_{\gamma \in \mathbb{R}^m, \beta \in \mathbb{R}^p} \|Y - U\gamma - X\beta\|^2 + (\beta - \beta_0)^T \Lambda (\beta - \beta_0)$$
 
 - $X$: Penalised features
 - $U$: Unpenalised features
