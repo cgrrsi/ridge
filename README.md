@@ -6,7 +6,7 @@ The goal is to minimize the objective function given by $||y - X\beta||^2_2 + \l
 
 ## Generalized Ridge Regression
 
-$$\hat{\beta}(\lambda) = \arg \min_{\beta \in \mathbb{R}^p} \left( (Y - X\beta)^TW(Y - X\beta) + (\beta - \beta_0)'\Delta(\beta - \beta_0) \right)$$
+$$\hat{\beta}(\lambda) = \arg \min_{\beta \in \mathbb{R}^p} \left( (Y - X\beta)^TW(Y - X\beta) + (\beta - \beta_0)^T\Delta(\beta - \beta_0) \right)$$
 
 - $W$: Weighting matrix, where it is diagonal. For simple Ridge, $W = I_p$, which means all data points are equally weighted.
 - $\beta_0$: Beta prior. For simple Ridge, $\beta_0 = 0$.
