@@ -25,3 +25,4 @@ $$\hat{\gamma}, \hat{\beta} = \arg \min_{\gamma \in \mathbb{R}^m, \beta \in \mat
 - $X$: Penalised features
 - $U$: Unpenalised features
 
+This is particularly useful when incorporating interaction terms - which we might want to penalize more than other features.
