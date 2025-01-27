@@ -1,1 +1,1 @@
-# ridge
+# Ridge regression from scratch
