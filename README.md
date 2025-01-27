@@ -6,9 +6,11 @@ We start with reimplementing Ridge regression from scratch that is OLS with L2 p
 
 The goal is to minimize the objective function given by $||y - X\beta||^2_2 + \lambda * ||\beta||^2_2$
 
-## Generalized Ridge Regression
+This classically leads to $\hat{\beta} = (X^TX+\lambda I)^{-1}X^Ty$.
 
-Yet, the previous formula is not the most general and we can actually incorporate a non-zero prior.
+## Non-zero priors
+
+Yet, we can generalize the previous formula and incorporate non-zero priors.
 
 $$\hat{\beta}(\lambda) = \arg \min_{\beta \in \mathbb{R}^p} \left( (Y - X\beta)^TW(Y - X\beta) + (\beta - \beta_0)^T\Delta(\beta - \beta_0) \right)$$
 
