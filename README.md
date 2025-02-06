@@ -10,7 +10,7 @@ This classically leads to the closed-form solution $\hat{\beta} = (X^TX+\lambda 
 
 ## Non-zero priors
 
-Yet, we can generalize the previous formula and incorporate non-zero priors.
+Actually, we can generalize the previous formula and incorporate non-zero priors.
 
 $$\hat{\beta}(\lambda) = \arg \min_{\beta \in \mathbb{R}^p} \left( (Y - X\beta)^TW(Y - X\beta) + (\beta - \beta_0)^T\Delta(\beta - \beta_0) \right)$$
 
@@ -27,4 +27,4 @@ $$\hat{\gamma}, \hat{\beta} = \arg \min_{\gamma \in \mathbb{R}^m, \beta \in \mat
 - $X$: Penalised features
 - $U$: Unpenalised features
 
-This is particularly useful when incorporating interaction terms - which we might want to penalize more than other features.
+This is particularly useful when incorporating interaction terms — which we might want to penalize more than other features — or when we have features from various fundamental types.
