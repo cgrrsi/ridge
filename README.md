@@ -1,4 +1,4 @@
-# Ridge regression from scratch
+# ridge
 
 ## Linear least squares with L2 regularization
 
