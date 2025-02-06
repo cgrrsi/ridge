@@ -14,7 +14,7 @@ Actually, we can generalize the previous formula and incorporate non-zero priors
 
 $$\hat{\beta}(\lambda) = \arg \min_{\beta \in \mathbb{R}^p} \left( (Y - X\beta)^TW(Y - X\beta) + (\beta - \beta_0)^T\Delta(\beta - \beta_0) \right)$$
 
-- $W$: Weighting matrix, where it is diagonal. For simple Ridge, $W = I_p$, which means all data points are equally weighted.
+- $W$: Weighting matrix. For simple Ridge, $W = I_p$, which means all data points are equally weighted.
 - $\beta_0$: Beta prior. For simple Ridge, $\beta_0 = 0$.
 - $\Delta$: Positive semi-definite matrix. For simple Ridge, $\Delta = \lambda I_p$.
 
